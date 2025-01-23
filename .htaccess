@@ -1,0 +1,11 @@
+# устанавливаем кодировку
+AddDefaultCharset utf-8
+
+RewriteEngine On
+#RewriteBase /project2
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/template/
+#RewriteRule ^(.*)$ index.php
+RewriteRule .+ index.php

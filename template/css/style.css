@@ -1,0 +1,586 @@
+
+.container_news{
+    width: 1920px;
+    height: 2186px;
+}
+
+.container{
+    width: 1920px;
+    height: 1440px;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-style: normal;
+    width: 390px;
+    height: 74px;
+    margin: 40px auto auto 200px;
+}
+
+.line{
+    border-bottom: 1px solid #6C6E7B;
+    margin-top: 42.88px;
+}
+
+.logo{
+    width: 93px;
+    height: 66px;
+    margin-top: 3.93px;
+}
+
+.logo_string{
+    width: 273px;
+    height: 74px;
+    margin: 0.07px auto 0.07px 24.12px;
+    font-family: "Segoe UI";
+    font-size: 28px;
+    line-height: 36.96px;
+    letter-spacing: 0.125em;
+    color: #2C145E;
+}
+
+.header_news{
+    font-size: 64px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    line-height: 89.6px;
+    margin: 21.86px 460px 63px auto;
+}
+
+.footer{
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 32px;
+    width: 740px;
+    height: 32px;
+    margin: 63.59px auto auto 200px;
+}
+
+.footer_view{
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 32px;
+    width: 740px;
+    height: 32px;
+    margin: 72.25px auto 68.62px 200px;
+}
+
+.footer_news{
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #841844;
+    border-radius: 50px;
+    padding: 16px 41px;
+    margin: 0px 0px 137.13px auto;
+    border: 2px solid #9B407A;
+}
+
+.footer_news div{
+    position: relative;
+
+    top: -4px;
+
+    width: 25px;
+
+    height: 2px;
+
+    background-color: #841844;
+
+    right: 10px;
+
+    display: inline-block;
+}
+
+.footer_news div::after {
+
+    content: '';
+
+    position: absolute;
+
+    width: 9px;
+
+    height: 2px;
+
+    top: -4px;
+
+    background-color: #841844;
+
+    transform: rotate(135deg);
+
+}
+
+.footer_news div::before {
+
+    content: '';
+
+    position: absolute;
+
+    width: 9px;
+
+    height: 2px;
+
+    top: 4px;
+
+    background-color: #841844;
+
+    transform: rotate(-135deg);
+
+}
+
+.footer_news:hover{
+    background-color: #841844;
+    color: #FFFFFF;
+}
+
+.footer_news:hover div{
+    background-color: #FFFFFF;
+}
+
+.footer_news:hover div:after{
+    background-color: #FFFFFF;
+}
+
+.footer_news:hover div:before{
+    background-color: #FFFFFF;
+}
+
+.menu_button:hover{
+    background-color: #841844;
+    color: white;
+}
+
+.next_button_active:hover{
+    background-color: #841844;
+}
+
+.next_button_active:hover div{
+    background-color: #FFFFFF;
+}
+
+.next_button_active:hover div:after{
+    background-color: #FFFFFF;
+}
+
+.next_button_active:hover div:before{
+    background-color: #FFFFFF;
+}
+
+.content_block{
+    border-bottom: 1px solid #6C6E7B;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.details_news{
+    margin: 30px 524px 0px 0px;
+}
+
+.content_list{
+    margin: 59.8px auto 83px auto;
+    display: grid;
+    grid-template-columns: 740px 740px;
+    grid-template-rows: 332px 364px;
+    gap: 82px 40px;
+}
+
+.content_list_one_new{
+    margin: 40px auto;
+}
+.content_item{
+    position: relative;
+}
+
+.content_one_new{
+    overflow: hidden;
+    margin: 40px auto 0px auto;
+    display: grid;
+    grid-template-columns: 740px 740px;
+    gap: 40px;
+
+}
+
+.image_one_new{
+    position: relative;
+}
+
+.content_text_one_new{
+    margin-top: -32px;
+}
+
+.content_item:hover .button_details {
+    background-color: #841844;
+    color: #FFFFFF;
+}
+
+.content_item:hover .button_details div {
+    background-color: #FFFFFF;
+}
+
+.content_item:hover .button_details div:after {
+    background-color: #FFFFFF;
+}
+
+.content_item:hover .button_details div:before {
+    background-color: #FFFFFF;
+}
+
+.content_item:hover .title {
+    color: #841844;
+}
+
+.content_item:hover {
+    cursor: pointer;
+}
+
+
+.date_new{
+    padding: 6px 18px;
+    gap: 10px;
+    background-color: #ECF2F5;
+    display: inline-block;
+    border-radius: 20px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #6C6E7B;
+    margin: 0px 622px 40px 0px;
+}
+
+.date_news{
+    padding: 6px 18px;
+    gap: 10px;
+    background-color: #ECF2F5;
+    display: inline-block;
+    border-radius: 20px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #6C6E7B;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.announce_new{
+
+
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43.58px;
+    color: #841844;
+}
+
+.announce_news{
+    margin: 30px auto;
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+}
+
+.title{
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43.58px;
+    margin: 30px auto;
+}
+
+.title_news{
+    margin: 0px 0px 59.8px 0px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 64px;
+    text-align: left;
+    line-height: 89.6px;
+}
+
+.path{
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 21.79px;
+    margin: 72.25px auto auto auto;
+
+}
+
+.path_last{
+    color: #BBBBBB;
+    display: inline-block;
+}
+
+.footer_menu{
+    margin-bottom: 83px;
+    height: 54px;
+    gap: 10px;
+    text-align: right;
+}
+
+.menu_button{
+    -webkit-box-sizing: border-box; /* Установка значения для Safari/Chrome, WebKit */
+    -moz-box-sizing: border-box;    /* Установка значения для Firefox, Gecko */
+    box-sizing: border-box;         /* Установка значения для Opera/IE 8+ */
+    text-decoration: none;
+    border: 2px solid #841844;
+    border-radius: 50px;
+    text-align: center;
+    color: #841844;
+    width: 56px;
+    height: 54px;
+    display: inline-block;
+    padding: 16px 23px;
+}
+
+.menu_button_active{
+    -webkit-box-sizing: border-box; /* Установка значения для Safari/Chrome, WebKit */
+    -moz-box-sizing: border-box;    /* Установка значения для Firefox, Gecko */
+    box-sizing: border-box;         /* Установка значения для Opera/IE 8+ */
+    text-decoration: none;
+    border: 2px solid #841844;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #841844;
+    color: white;
+    width: 56px;
+    height: 54px;
+    display: inline-block;
+    padding: 16px 23px;
+    pointer-events: none;
+    cursor: default;
+}
+
+.next_button_active{
+    -webkit-box-sizing: border-box; /* Установка значения для Safari/Chrome, WebKit */
+    -moz-box-sizing: border-box;    /* Установка значения для Firefox, Gecko */
+    box-sizing: border-box;         /* Установка значения для Opera/IE 8+ */
+    text-decoration: none;
+    border: 2px solid #841844;
+    border-radius: 50px;
+    width: 106px;
+    height: 54px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.next_button_active div {
+
+    position: relative;
+
+    top: 50%;
+
+    width: 14.76px;
+
+    height: 2px;
+
+    background-color: #841844;
+
+    left: 44px;
+
+    display: block;
+
+}
+
+.next_button_active div::before {
+
+    content: '';
+
+    position: absolute;
+
+    width: 9px;
+
+    height: 2px;
+
+    top: 3px;
+
+    right: -1px;
+
+    background-color: #841844;
+
+    transform: rotate(-45deg);
+
+}
+
+.next_button_active div::after {
+
+    content: '';
+
+    position: absolute;
+
+    width: 9px;
+
+    height: 2px;
+
+    top: -3px;
+
+    right: -1px;
+
+    background-color: #841844;
+
+    transform: rotate(45deg);
+
+}
+
+:after, :before {
+
+    -webkit-box-sizing: border-box;
+
+    -moz-box-sizing: border-box;
+
+    box-sizing: border-box;
+
+}
+
+.button_details{
+    text-decoration: none;
+    font-family: "Open Sans";
+    position: absolute;
+    bottom: 0;
+    margin: 30px 524px 0px 0px;
+    padding: 16px 40px;
+    border-radius: 50px;
+    border: 2px solid #9B407A;
+    color: #841844;
+    font-size: 16px;
+    line-height: 21.79px;
+    font-weight: 600;
+}
+
+.button_details div {
+    position: relative;
+
+    top: -4px;
+
+    width: 25px;
+
+    height: 2px;
+
+    background-color: #841844;
+
+    left: 10px;
+
+    display: inline-block;
+}
+
+.button_details div::before {
+
+    content: '';
+
+    position: absolute;
+
+    width: 9px;
+
+    height: 2px;
+
+    top: 3px;
+
+    right: -1px;
+
+    background-color: #841844;
+
+    transform: rotate(-45deg);
+
+}
+
+.button_details div::after {
+
+    content: '';
+
+    position: absolute;
+
+    width: 9px;
+
+    height: 2px;
+
+    top: -3px;
+
+    right: -1px;
+
+    background-color: #841844;
+
+    transform: rotate(45deg);
+
+}
+
+
+.next_button_hidden{
+    display: none;
+}
+
+.footer_pages{
+    vertical-align: top;
+    margin-right: 16px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.79px;
+    display: inline-block;
+}
+
+.image_first{
+    height: 646px;
+    background-size: cover;
+    background-position-y: -582.58px;
+    background-image: url('<?php echo $image_path; ?>');
+}
+
+.image_new{
+    position: absolute;
+    bottom: 0;
+}
+
+.first_new {
+    position: absolute;
+    width: 1265px;
+    margin: 218.12px 460px auto 195px;
+    color: #FFFFFF;
+}
+
+.header_first_new{
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 89.6px;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'),
+        url('../fonts/OpenSans.ttf') format('truetype'),
+        url('../fonts/OpenSansBold.ttf') format('truetype');
+}
+
+.announce_first_new{
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-size: 32px;
+    line-height: 51.2px;
+    width: 1264.71px;
+    margin-left: 0.29px;
+    margin-top: 30.33px;
+}
+
+.image_and_title{
+    margin: 42.88px auto auto auto;
+}
+
+.content{
+    margin: 54.32px 200px 63.59px 200px;
+    border-bottom: 1px solid #6C6E7B;
+}
+
+.text_one_new{
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 32px;
+}
+
+
+

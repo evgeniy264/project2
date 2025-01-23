@@ -1,0 +1,32 @@
+<?php
+namespace Core;
+
+class Model
+{
+    /*protected static $colNews=4;*/
+    protected static $link;
+
+    public function __construct()
+    {
+        if (!self::$link) {
+            self::$link = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+            /*self::$colNews = 4;*/
+            mysqli_query(self::$link, "SET NAMES 'utf8'");
+        }
+    }
+
+    protected function findOne($query)
+    {
+        $result = mysqli_query(self::$link, $query) or die(mysqli_error(self::$link));
+        return mysqli_fetch_assoc($result);
+    }
+
+    protected function findMany($query)
+    {
+        $result = mysqli_query(self::$link, $query) or die(mysqli_error(self::$link));
+        for ($data = []; $row = mysqli_fetch_assoc($result); $data[] = $row);
+
+        return $data;
+    }
+
+}
